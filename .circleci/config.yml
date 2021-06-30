@@ -53,12 +53,12 @@ workflows:
   build_deploy:
     jobs:
       - build:
-          context: reaction-publish-semantic-release
+          context: reaction
       - lint:
           requires:
             - build
       - deploy:
-          context: reaction-publish-semantic-release
+          context: reaction
           requires:
             - lint
           filters:

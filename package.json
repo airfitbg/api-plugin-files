@@ -1,5 +1,5 @@
 {
-  "name": "@reactioncommerce/api-plugin-files",
+  "name": "@tedraykov/api-plugin-files",
   "description": "Files plugin for the Reaction API",
   "version": "0.0.0-development",
   "main": "index.js",
@@ -7,12 +7,12 @@
   "engines": {
     "node": ">=12.14.1"
   },
-  "homepage": "https://github.com/reactioncommerce/api-plugin-files",
-  "url": "https://github.com/reactioncommerce/api-plugin-files",
+  "homepage": "https://github.com/airfitbg/api-plugin-files",
+  "url": "https://github.com/airfitbg/api-plugin-files",
   "email": "engineering@reactioncommerce.com",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/reactioncommerce/api-plugin-files.git"
+    "url": "git+https://github.com/airfitbg/api-plugin-files.git"
   },
   "author": {
     "name": "Reaction Commerce",
@@ -21,7 +21,7 @@
   },
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/reactioncommerce/api-plugin-files/issues"
+    "url": "https://github.com/airfitbg/api-plugin-files/issues"
   },
   "sideEffects": false,
   "dependencies": {
@@ -33,7 +33,7 @@
     "@reactioncommerce/reaction-error": "~1.0.1",
     "envalid": "~5.0.0",
     "node-fetch": "~2.6.0",
-    "sharp": "~0.26.1",
+    "sharp": "^0.28.3",
     "simpl-schema": "~1.10.2"
   },
   "devDependencies": {
